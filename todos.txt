@@ -1,0 +1,12 @@
+giriş yaptığında cookie geliyor mu kontrol et // sonunda oldu amına koyim
+
+giriş yapınca gelen useri saklamak için react state managementda redux toolkit e bak
+
+1 - user verilerini aldık ve elimizde var , şimdi yapmamız gereken o verileri redux storeına saklamak, ve o şekilde bırakmak
+
+kullanıcı uygulamayı açtığında eğer cookie si varsa direk "/" sayfasına gitsin eğer cookie yoksa "/login" kısmına gitsin 
+
+
+// product detail sayfasında ürün , review sayısını ve favorites sayısını bilmeli ama daha review ve favorite kısmını implement etmedim backend de
+
+//! design a decent components for no product in card situation
