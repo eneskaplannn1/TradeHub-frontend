@@ -22,7 +22,6 @@ import SignUp from "./pages/Authentication/SignUp";
 import ForgetPassword from "./pages/Authentication/ForgetPassword";
 import Login from "./pages/Authentication/Login";
 import UnAuthorized from "./pages/Authentication/UnAuthorized";
-import PageNotFound from "./pages/Error/pageNotFound";
 import ProductDetail from "./pages/RootLayout/ProductDetail";
 import OrderDetail from "./pages/RootLayout/OrderDetail";
 import ConfirmAccount from "./pages/Authentication/ConfirmAccount";
@@ -34,7 +33,8 @@ import Layout from "./components/layout";
 import Address from "./pages/RootLayout/Address";
 import Account from "./pages/RootLayout/Account";
 import ProductCategory from "./pages/RootLayout/ProductCategory";
-import RequiredAuth from "./features/auth/requiredAuth";
+import RequiredAuth from "./features/auth/RequiredAuth";
+import PageNotFound from "./pages/Error/PageNotFound";
 
 function App() {
   const dispatch = useDispatch();
