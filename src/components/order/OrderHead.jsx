@@ -1,6 +1,7 @@
 import { styled } from "styled-components";
-import Button from "../../UI/button";
 import StyledBoxTemplate from "../box-template.jsx";
+
+import Button from "../../UI/button";
 import { NavLink } from "react-router-dom";
 
 const StyledOrderHead = styled.div`
