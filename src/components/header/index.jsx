@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
-import Logo from "../../UI/logo";
-import SearchBar from "../../UI/search-bar";
-import Navbar from "../../UI/navbar";
+import Logo from "../../UI/logo/index";
+import SearchBar from "../../UI/search-bar/index";
+import Navbar from "../../UI/navbar/index";
 
 const StyledHeader = styled.header`
   width: 100vw;

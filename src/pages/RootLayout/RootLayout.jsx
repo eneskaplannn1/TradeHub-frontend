@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
-import Header from "../../components/header";
+import Header from "../../components/header/index";
 import { styled } from "styled-components";
-import ProductList from "../../components/product-list";
+import ProductList from "../../components/product-list/index";
 
 const StyledMain = styled.main`
   padding: 1rem 8rem;
