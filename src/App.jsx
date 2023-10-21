@@ -8,7 +8,6 @@ import {
   Route,
   Routes,
 } from "react-router-dom";
-import RequiredAuth from "./features/auth/requiredAuth";
 import { useDispatch } from "react-redux";
 import { logUserIn } from "./features/auth/authSlice";
 import { handleLoginWithCookie } from "./services/apiAuth";
@@ -35,6 +34,7 @@ import Layout from "./components/layout";
 import Address from "./pages/RootLayout/Address";
 import Account from "./pages/RootLayout/Account";
 import ProductCategory from "./pages/RootLayout/ProductCategory";
+import RequiredAuth from "./features/auth/requiredAuth";
 
 function App() {
   const dispatch = useDispatch();
